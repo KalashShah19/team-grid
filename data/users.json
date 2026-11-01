@@ -1,0 +1,42 @@
+[
+    {
+        "id": "86be548d-fc22-4404-a2c7-b8099a5da4e1",
+        "first_name": "Admin",
+        "last_name": "",
+        "dob": "2002-04-19",
+        "role": "admin",
+        "is_active": true,
+        "created_at": "2026-10-24T00:00:00+05:30",
+        "last_login": "2026-11-01T02:16:37+05:30"
+    },
+    {
+        "id": "2b83657e-058c-4378-bb6e-785239c12e16",
+        "first_name": "Kalash",
+        "last_name": "Shah",
+        "dob": "2002-04-19",
+        "role": "player",
+        "is_active": true,
+        "created_at": "2026-10-24T00:36:54+05:30",
+        "last_login": "2026-11-01T02:09:34+05:30"
+    },
+    {
+        "id": "975dae85-eae3-4622-9bc8-a1d2ae94cf1e",
+        "first_name": "Akash",
+        "last_name": "Zaveri",
+        "dob": "2003-02-12",
+        "role": "player",
+        "is_active": true,
+        "created_at": "2026-11-01T02:24:28+05:30",
+        "last_login": "2026-11-01T02:24:28+05:30"
+    },
+    {
+        "id": "428f4aa8-ba36-4aa4-b521-e55df73cf73d",
+        "first_name": "Dhruvil",
+        "last_name": "Patel",
+        "dob": "2002-01-12",
+        "role": "player",
+        "is_active": true,
+        "created_at": "2026-11-01T02:49:24+05:30",
+        "last_login": "2026-11-01T02:49:24+05:30"
+    }
+]

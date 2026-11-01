@@ -1,0 +1,134 @@
+[
+    {
+        "id": "f6d1badf-eb3d-4695-b138-2da11a6f14fe",
+        "type": "poll_create",
+        "user_id": "86be548d-fc22-4404-a2c7-b8099a5da4e1",
+        "details": {
+            "poll_id": "b5d32374-a042-4535-9608-11da481b4874",
+            "title": "Test Delete Poll"
+        },
+        "ip": "",
+        "user_agent": "",
+        "created_at": "2026-11-01T17:37:25+05:30"
+    },
+    {
+        "id": "da99cf4c-f7b7-4ae0-b1bb-d75dea341036",
+        "type": "poll_delete",
+        "user_id": "",
+        "details": {
+            "poll_id": "b5d32374-a042-4535-9608-11da481b4874",
+            "title": "Test Delete Poll"
+        },
+        "ip": "",
+        "user_agent": "",
+        "created_at": "2026-11-01T17:37:25+05:30"
+    },
+    {
+        "id": "f5cc66e2-281e-469a-b7f8-9fd9eabca9a4",
+        "type": "match_create",
+        "user_id": "",
+        "details": {
+            "match_id": "0ef6e620-313b-4989-b5bb-30c4a5e29417"
+        },
+        "ip": "",
+        "user_agent": "",
+        "created_at": "2026-11-01T17:37:25+05:30"
+    },
+    {
+        "id": "edf5cae8-a4f3-4ca5-8e85-60bda6cf901e",
+        "type": "match_delete",
+        "user_id": "",
+        "details": {
+            "match_id": "0ef6e620-313b-4989-b5bb-30c4a5e29417",
+            "title": "Test Delete Match"
+        },
+        "ip": "",
+        "user_agent": "",
+        "created_at": "2026-11-01T17:37:25+05:30"
+    },
+    {
+        "id": "cbf5f8e8-2497-4099-bf51-131987bb4741",
+        "type": "poll_create",
+        "user_id": "86be548d-fc22-4404-a2c7-b8099a5da4e1",
+        "details": {
+            "poll_id": "89a2ccda-3e82-4004-8477-c34d33aad6ff",
+            "title": "Test Locked Match Poll"
+        },
+        "ip": "",
+        "user_agent": "",
+        "created_at": "2026-11-01T17:53:19+05:30"
+    },
+    {
+        "id": "2a0cb95d-92d1-4a57-942a-0b8feefa3e56",
+        "type": "vote",
+        "user_id": "2b83657e-058c-4378-bb6e-785239c12e16",
+        "details": {
+            "poll_id": "89a2ccda-3e82-4004-8477-c34d33aad6ff",
+            "option": 0,
+            "guest_count": 0
+        },
+        "ip": "",
+        "user_agent": "",
+        "created_at": "2026-11-01T17:53:20+05:30"
+    },
+    {
+        "id": "06a08e08-59fa-49c5-8938-efe18bd91df0",
+        "type": "vote",
+        "user_id": "975dae85-eae3-4622-9bc8-a1d2ae94cf1e",
+        "details": {
+            "poll_id": "89a2ccda-3e82-4004-8477-c34d33aad6ff",
+            "option": 0,
+            "guest_count": 0
+        },
+        "ip": "",
+        "user_agent": "",
+        "created_at": "2026-11-01T17:53:20+05:30"
+    },
+    {
+        "id": "83e10b3b-e5b9-4630-92a7-8542c28113cb",
+        "type": "vote",
+        "user_id": "428f4aa8-ba36-4aa4-b521-e55df73cf73d",
+        "details": {
+            "poll_id": "89a2ccda-3e82-4004-8477-c34d33aad6ff",
+            "option": 0,
+            "guest_count": 0
+        },
+        "ip": "",
+        "user_agent": "",
+        "created_at": "2026-11-01T17:53:20+05:30"
+    },
+    {
+        "id": "8f664988-7977-416b-90b2-3bdb4ef71a38",
+        "type": "poll_lock",
+        "user_id": "",
+        "details": {
+            "poll_id": "89a2ccda-3e82-4004-8477-c34d33aad6ff"
+        },
+        "ip": "",
+        "user_agent": "",
+        "created_at": "2026-11-01T17:53:20+05:30"
+    },
+    {
+        "id": "24b6d4ae-b060-46f6-aeb0-4bd23af8d62f",
+        "type": "comment",
+        "user_id": "2b83657e-058c-4378-bb6e-785239c12e16",
+        "details": {
+            "poll_id": "89a2ccda-3e82-4004-8477-c34d33aad6ff"
+        },
+        "ip": "",
+        "user_agent": "",
+        "created_at": "2026-11-01T17:53:21+05:30"
+    },
+    {
+        "id": "59701be3-fc7a-4ac9-86f3-8fb91c4d5e44",
+        "type": "poll_delete",
+        "user_id": "",
+        "details": {
+            "poll_id": "89a2ccda-3e82-4004-8477-c34d33aad6ff",
+            "title": "Test Locked Match Poll"
+        },
+        "ip": "",
+        "user_agent": "",
+        "created_at": "2026-11-01T17:53:22+05:30"
+    }
+]

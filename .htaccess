@@ -1,0 +1,31 @@
+# Enable Rewrite Engine
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Prevent directory listing
+    Options -Indexes
+
+    # Route /login to index.php
+    RewriteRule ^login/?$ index.php [L,QSA]
+
+    # Route /admin to admin/index.php
+    RewriteRule ^admin/?$ admin/index.php [L,QSA]
+
+    # Allow direct access to existing files and directories (like assets, css, js)
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Check if requested filename with .php exists in root
+    RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+    RewriteRule ^([^/]+)/?$ $1.php [L,QSA]
+
+    # Check if requested filename with .php exists in admin directory
+    RewriteCond %{DOCUMENT_ROOT}/admin/$1.php -f
+    RewriteRule ^admin/([^/]+)/?$ admin/$1.php [L,QSA]
+
+    # Fallback to .php for subdirectories or relative paths
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.*)$ $1.php [L,QSA]
+</IfModule>

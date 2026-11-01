@@ -1,0 +1,71 @@
+Web App Name : Team - Grid
+
+create a web app using HTML CSS JS and PHP, this app is for football team management with good and sporty design and color pallete. also create and add a logo with CSS only. Download and use SWAL for normal alerts or animations.
+
+# Features : 
+-> Login
+- There should be easy login system for players and admin
+- Login with first name and DOB only, no passwords
+- system should auto detect when admin is logged in and it should redirect to admin pannel
+
+-> Polling
+- I should be able to create polls, inputs - title, options, deadline (optional), max votes (optional), tag (internal / friendly)
+- There will be a comment section for all the polls and each player can comment unlimited times, just dont allow spamming.
+- when poll ends it should have a btn for team selection
+- When anyone votes there should be notification to all the players who have voteed
+- When new poll is created, exisitng users should have a notification for it to vote
+- players can edit their votes only when poll is active, also send edit notifications
+- Old polls should not be visible to the players
+
+# Notifications
+- There should be a bell icon which will show the number of notifications, when clicked on, it should show the slider from up to down and all notifications
+- No seperate page, just same pop up layout in all pages
+- There should be tick options which will be mark as read, and mark all as read btn on top
+- Manage reads of notifications of all players properly
+
+-> Team Selection
+- When poll is done, admin will select 6 v 6, 7 v 7 or 8 v 8 (3 options only), based on the number of votes, it should be auto selected and admin can change it.
+- There should be an option where I will enter all the player names and directly selection will be opened skipping the poll part, i will assign the captains, captians will be able to select the players turn by turn in their teams, they can rename their teams before starting the selection, both captains will have ready btn, when both are ready the selection will start.
+
+-> Team Formations after Selection
+- when selection is done, new screen should open for team formation, both captains can drag and drop their players to create their team formations. In the team formation screen the background UI should be of a football field with all the details like circle, half line, GK box, etc etc
+- Team captains can save the formation when satisfied, after saving it will be visible to the players, each player can view their own team formation only
+- If there are more players, captain can select subs or left over (not drag and ropped) players will be moved to subs
+
+-> Matches 
+- There should be a page for match data, where each match will be shown in table format and all players can see all the match data
+- When clicked on any match it should show details of the match like how many players played in it, captions will be lsited first and they will have a captain badge along with their name, captain badge should be rendered by CSS only, also show the formations for both the teams
+- scores are optional, if score is mentioned then only show, if not then just hide the section, dont show "scored pending or not entered"
+- admin can also enter goals scored by, which is also optional
+
+-> Admin pannel 
+- Admin can vote in the poll as any player but by default admin will be Kalash Shah
+- Admin should be able to see who has seen the poll but not voted
+- Admin will have different nav bar which will have all the pages of normal players and along with that there will be pages for data, logs(logins, polls, matches, etc), Reports(total number of matches, total number of players, number of active players, desc order of most active players, attendance, fastest voters, chats), analysis(pattern recognition, total spent on matches), payments (total turf fees, per player contri with pending / paid checklist) etc etc
+- There will not be any db, all data will be stored in files
+- Admin should be able to see all the users name and DOBs in a seperate users data page in table format
+- Only admin will be able to access the payment details no one else
+- admin can delete users data only if they are not refernced in any of the match or polls 
+
+# Pages
+-> All Players 
+- Login / Register
+- Polls
+- Match data 
+
+-> Admin only
+- Payments
+- Reports
+- Users data
+- Analysis
+
+
+# Remember :
+- Everything should be local, dont use any API for third party things
+- Whole code and application should should be resource friendly, means animations or operations should not use high CPU or RAM
+- The UI should be very responsive coz this will be mostly used in mobile phones and sometimes laptops
+- When optional details are not filled, dont show it at all, just hide them
+- Whole data loading and everything should feel smooth and fast, code should be optmized for that
+- U can use any FIFA or football games style theme which suits best
+- Before developing first ask everything and clear all doubts, you can start developing clear things right away parallely 
+- Store each and every little data for analysis and research
